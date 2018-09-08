@@ -1,0 +1,1144 @@
+head	1.58;
+access;
+symbols;
+locks
+	umair:1.58; strict;
+comment	@ * @;
+
+
+1.58
+date	2017.09.25.12.46.17;	author umair;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2017.09.25.12.37.24;	author umair;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2017.09.25.12.34.02;	author umair;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2017.09.25.12.31.46;	author umair;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2017.09.25.12.29.09;	author umair;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2017.09.25.12.23.06;	author umair;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2017.09.25.12.20.26;	author umair;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2017.09.25.12.13.38;	author umair;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2017.09.25.12.12.27;	author umair;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2017.09.25.11.54.49;	author umair;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2017.09.25.11.53.32;	author umair;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2017.09.25.11.52.35;	author umair;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2017.09.25.11.51.12;	author umair;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2017.09.25.11.45.38;	author umair;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2017.09.25.11.43.09;	author umair;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2017.09.25.11.40.21;	author umair;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2017.09.25.11.36.51;	author umair;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2017.09.25.11.36.29;	author umair;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2017.09.25.11.08.40;	author umair;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2017.09.25.11.00.00;	author umair;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2017.09.25.10.54.47;	author umair;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2017.09.25.10.53.05;	author umair;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2017.09.25.10.50.43;	author umair;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2017.09.25.10.41.11;	author umair;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2017.09.25.10.39.23;	author umair;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2017.09.25.10.37.34;	author umair;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2017.09.25.09.51.34;	author umair;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2017.09.25.09.45.08;	author umair;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2017.09.25.09.41.05;	author umair;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2017.09.25.09.40.24;	author umair;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2017.09.23.10.22.39;	author umair;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2017.09.23.10.18.41;	author umair;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2017.09.23.10.14.52;	author umair;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2017.09.23.10.14.27;	author umair;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2017.09.23.10.11.48;	author umair;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2017.09.23.10.07.35;	author umair;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2017.09.23.10.04.58;	author umair;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2017.09.23.10.03.38;	author umair;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2017.09.23.10.02.25;	author umair;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2017.09.23.10.01.08;	author umair;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2017.09.23.09.56.38;	author umair;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2017.09.23.09.53.38;	author umair;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2017.09.23.09.52.14;	author umair;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2017.09.23.09.33.44;	author umair;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2017.09.23.09.27.04;	author umair;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2017.09.23.09.26.42;	author umair;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2017.09.23.09.14.48;	author umair;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2017.09.23.08.29.52;	author umair;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2017.09.23.08.19.43;	author umair;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2017.09.23.08.15.22;	author umair;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2017.09.23.08.13.38;	author umair;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2017.09.23.08.09.13;	author umair;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2017.09.23.08.05.35;	author umair;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2017.09.23.08.02.21;	author umair;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2017.09.23.07.56.15;	author umair;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2017.09.23.07.47.43;	author umair;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2017.09.23.07.43.53;	author umair;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2017.07.22.18.18.43;	author umair;	state Exp;
+branches;
+next	;
+
+
+desc
+@..
+@
+
+
+1.58
+log
+@*** empty log message ***
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int sortlinklist(struct node *start)
+{
+	struct node *temp1;
+	struct node *temp2;
+	struct node *temp3;
+	int n=0,j,k;
+	int flag = 0;
+	printf("%s : Begin...\n",__func__);
+	temp3 = start;
+	printf(" starting node have info %d\n",temp3->info);
+	temp1 = temp3->Next;
+	printf(" next to starting node have info %d\n",temp1->info);
+	while(temp3->Next);
+	{
+		temp3=temp3->Next;
+		n++;
+	}
+	printf("no of nodes is %d\n",n);
+	for(j=0;j<=n-1;j++)
+	{
+		temp1=temp1->Next;
+		for(k=0;k<n-1-j;k++)
+		{
+			if(start->Next > temp1->Next)
+			{
+				temp2->info = start->info;
+				start->info = temp1->info;
+				temp1->info = temp2->info; 
+			}
+
+		}
+	}
+
+	printf("%s : End\n",__func__);
+	return 0;
+}
+@
+
+
+1.57
+log
+@*** empty log message ***
+@
+text
+@d15 1
+a15 1
+	while(start->Next);
+d17 1
+a17 1
+		start=start->Next;
+d21 1
+a21 1
+/*	for(j=0;j<=n-1;j++)
+d35 1
+a35 1
+*/
+d37 1
+a37 1
+return 0;
+@
+
+
+1.56
+log
+@*** empty log message ***
+@
+text
+@d13 2
+d23 1
+a23 1
+		temp1=temp->Next;
+@
+
+
+1.55
+log
+@*** empty log message ***
+@
+text
+@d12 1
+a12 1
+	printf("adrr:%d data %d\n",,temp3->info);
+@
+
+
+1.54
+log
+@*** empty log message ***
+@
+text
+@d13 1
+a13 1
+	while(temp3->Next);
+d15 1
+a15 1
+		temp3=temp3->Next;
+a16 2
+		printf("nsdsdasd\n");
+		break;
+d19 1
+a19 1
+	for(j=0;j<=n-1;j++)
+d21 1
+a21 1
+		temp1=start->Next;
+d33 1
+@
+
+
+1.53
+log
+@*** empty log message ***
+@
+text
+@d12 2
+a13 2
+	printf("adrr:%d data %d\n",start->Next,temp3->info);
+	/*while(temp3->Next);
+d18 1
+d34 1
+a34 1
+	}*/
+@
+
+
+1.52
+log
+@*** empty log message ***
+@
+text
+@d12 1
+a12 1
+	printf("adrr:%d %d\n",start->info,temp3->info);
+@
+
+
+1.51
+log
+@*** empty log message ***
+@
+text
+@d12 2
+a13 1
+	while(temp3->Next);
+d33 1
+a33 1
+	}
+@
+
+
+1.50
+log
+@*** empty log message ***
+@
+text
+@d10 1
+a10 1
+	printf("%s : Begin\n",__func__);
+@
+
+
+1.49
+log
+@..
+..
+..
+..
+..
+@
+text
+@d7 1
+d11 2
+a12 2
+		printf("start=%d\n",start);
+	while(start->Next);
+d14 1
+a14 1
+		start=start->Next;
+a16 1
+		
+@
+
+
+1.48
+log
+@*** empty log message ***
+@
+text
+@d10 1
+@
+
+
+1.47
+log
+@*** empty log message ***
+@
+text
+@d33 1
+@
+
+
+1.46
+log
+@*** empty log message ***
+@
+text
+@d14 1
+a14 1
+	printf("nsdsdasd\n");
+@
+
+
+1.45
+log
+@*** empty log message ***
+@
+text
+@d14 2
+@
+
+
+1.44
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 2
+	int n,j,k;
+	temp2=creatnode();
+@
+
+
+1.43
+log
+@*** empty log message ***
+@
+text
+@a14 4
+		if(start->Next == NULL)
+		{
+			break;
+		}	
+@
+
+
+1.42
+log
+@*** empty log message ***
+@
+text
+@d15 4
+d20 1
+a20 1
+	printf("no of nodes is %d\n",i);
+d27 6
+a32 6
+				{
+					temp2->info = start->info;
+					start->info = temp1->info;
+					temp1->info = temp2->info; 
+				}
+			
+@
+
+
+1.41
+log
+@*** empty log message ***
+@
+text
+@d26 1
+a26 1
+					temp1->info = temp2->info 
+@
+
+
+1.40
+log
+@*** empty log message ***
+@
+text
+@d7 1
+d11 1
+a11 1
+	while(start->Next)
+d14 5
+d20 1
+a20 14
+		printf("Starting info= %d \n",start->info);
+		printf("Next to starting info= %d \n",temp1->info);
+		if(start->info > temp1->info)
+		{
+			printf("temp1= %d \n",temp1->info);
+			temp2->info=temp1->info;
+			printf("temp2= %d \n",temp2->info);
+			temp1->info = start->info;
+			printf("new temp1 is updated with larger value= %d \n",temp1->info);
+			start->info=temp2->info;
+			printf("new starting and smaller value is =%d\n",start->info);
+
+		}
+		else
+d22 7
+a28 2
+			printf("linked list is sorted\n");
+			break;
+a31 1
+	return 0;
+@
+
+
+1.39
+log
+@*** empty log message ***
+@
+text
+@d19 1
+a19 1
+			temp2->info=start->info;
+d21 3
+a23 1
+			start->info = temp1->info;
+a24 2
+			temp1->info=temp2->info;
+			printf("new temp1 is updated with larger value= %d \n",temp1->info);
+@
+
+
+1.38
+log
+@*** empty log message ***
+@
+text
+@a33 1
+	dislaylinklist(start);
+@
+
+
+1.37
+log
+@*** empty log message ***
+@
+text
+@d34 1
+a34 1
+	dislaylinklist();
+@
+
+
+1.36
+log
+@*** empty log message ***
+@
+text
+@d34 2
+a35 1
+	return start;
+@
+
+
+1.35
+log
+@*** empty log message ***
+@
+text
+@d34 1
+a34 1
+	return 0;
+@
+
+
+1.34
+log
+@*** empty log message ***
+@
+text
+@d12 1
+d14 12
+a25 18
+			printf("Starting info= %d \n",start->info);
+			printf("Next to starting info= %d \n",temp1->info);
+			if(start->info > temp1->info)
+			{
+				printf("temp1= %d \n",temp1->info);
+				temp2->info=start->info;
+				printf("temp2= %d \n",temp2->info);
+				start->info = temp1->info;
+				printf("new starting and smaller value is =%d\n",start->info);
+				temp1->info=temp2->info;
+				printf("new temp1 is updated with larger value= %d \n",temp1->info);
+				
+			}
+			else
+			{
+				printf("linked list is sorted\n");
+				break;
+			}
+d27 6
+@
+
+
+1.33
+log
+@*** empty log message ***
+@
+text
+@d23 1
+a23 1
+				printf("new temp1 is updated with larger value= %d \n",temp->info);
+d29 1
+a31 1
+	}
+@
+
+
+1.32
+log
+@*** empty log message ***
+@
+text
+@a11 1
+		start=start->Next;
+a12 2
+		if(flag==0)
+		{
+d18 1
+a18 2
+				temp2=start->Next;
+				temp2->info=temp1->info;
+d20 9
+a28 4
+				temp1->info = start->info;
+				printf("new temp1 with greater value of start=%d\n",temp1->info);
+				start = temp2;
+				printf("new start= %d \n",start->info);
+a30 7
+		else
+		{
+			flag=0;
+			break;
+		}
+		flag =1;
+
+@
+
+
+1.31
+log
+@*** empty log message ***
+@
+text
+@d21 2
+a22 2
+				temp2=temp1;
+				temp2=temp1->Next;
+@
+
+
+1.30
+log
+@*** empty log message ***
+@
+text
+@d21 2
+a22 1
+				temp2 = temp1;
+@
+
+
+1.29
+log
+@*** empty log message ***
+@
+text
+@d24 1
+a24 1
+				printf("new temp1= %d \n",temp1->info);
+@
+
+
+1.28
+log
+@*** empty log message ***
+@
+text
+@d5 3
+a7 2
+	struct node *temp1=NULL;
+	struct node *temp2=NULL;
+@
+
+
+1.27
+log
+@*** empty log message ***
+@
+text
+@d24 1
+a24 1
+				start->info = temp2->info;
+@
+
+
+1.26
+log
+@*** empty log message ***
+@
+text
+@d20 1
+a20 1
+				temp2->info = temp1->info;
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@a27 1
+		flag =1;
+d33 1
+@
+
+
+1.24
+log
+@*** empty log message ***
+@
+text
+@d11 2
+a12 2
+			start=start->Next;
+			temp1=start->Next;
+a26 6
+				flag =1;
+			else
+			{
+				flag=0;
+				break;
+			}
+d28 7
+@
+
+
+1.23
+log
+@*** empty log message ***
+@
+text
+@d26 1
+a27 1
+			}
+@
+
+
+1.22
+log
+@*** empty log message ***
+@
+text
+@d12 1
+a14 1
+			temp1=start->Next;
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+	struct node *temp1;
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@d20 1
+a20 1
+				temp2 = temp1->info;
+d22 1
+a22 1
+				temp1->info = start;
+d24 1
+a24 1
+				start->info = temp2;
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d6 1
+a6 1
+	struct node *temp2;
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d19 1
+a19 1
+				printf("starting value is greater= %d \n",start->info);
+d21 1
+d23 1
+d25 1
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d20 3
+a22 3
+				temp2->info = temp1->info;
+				temp1->info = start->info;
+				start->info = temp2->info;
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@a11 1
+			temp1=start->Next;
+d14 1
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d11 1
+a14 1
+			start=start->Next;
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@a6 1
+	*temp1 = *temp = NULL;
+d11 1
+a15 1
+			temp1=start->Next;
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	temp1 = temp = NULL;
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d7 1
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d5 2
+a6 1
+	struct node *temp1,*temp2;
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d26 1
+a29 1
+	flag=0;
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d29 1
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@a32 1
+
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d6 1
+d10 1
+a10 5
+		start=start->Next;
+		printf("Starting info= %d \n",start->info);
+		temp1=start->Next;
+		printf("Next to starting info= %d \n",temp1->info);
+		if(start->info > temp1->info)
+d12 16
+a27 4
+			printf("starting value is greater= %d \n",start->info);
+			temp2->info = temp1->info;
+			temp1->info = start->info;
+			start->info = temp2->info;
+a28 1
+		break;
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d15 1
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d9 1
+a18 1
+		start=start->Next;
+@
+
+
+1.4
+log
+@******PROJECT BASED ON LINKEDLIST COMPLETED******
+@
+text
+@d5 3
+a7 3
+struct node *temp1,*temp2;
+printf("%s : Begin\n",__func__);
+while(start->Next)
+d9 4
+a12 4
+	printf("Starting info= %d \n",start->info);
+	temp1=start->Next;
+	printf("Next to starting info= %d \n",start->info);
+	if(start->info > temp1->info)
+a16 1
+			break;
+d18 2
+a19 1
+	start=start->Next;
+d21 2
+a22 2
+printf("%s : End\n",__func__);
+return 0;
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int sortlist(struct node *start)
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d17 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+int sortlinklist()
+d5 17
+d23 1
+@

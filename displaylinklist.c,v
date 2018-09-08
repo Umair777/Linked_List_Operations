@@ -1,0 +1,746 @@
+head	1.36;
+access;
+symbols;
+locks
+	umair:1.36; strict;
+comment	@ * @;
+
+
+1.36
+date	2017.09.14.07.06.00;	author umair;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2017.09.14.06.45.26;	author umair;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2017.09.14.06.44.38;	author umair;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2017.09.13.15.18.44;	author umair;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2017.07.24.08.52.23;	author umair;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2017.07.24.08.49.55;	author umair;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2017.07.24.08.39.46;	author umair;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2017.07.24.08.37.08;	author umair;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2017.07.24.08.36.07;	author umair;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2017.07.24.08.29.59;	author umair;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2017.07.24.08.27.55;	author umair;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2017.07.24.08.26.28;	author umair;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2017.07.24.08.16.25;	author umair;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2017.07.24.08.13.36;	author umair;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2017.07.24.08.06.43;	author umair;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2017.07.24.07.58.42;	author umair;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2017.07.24.07.57.48;	author umair;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2017.07.24.07.53.11;	author umair;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2017.07.24.07.05.51;	author umair;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2017.07.23.20.17.55;	author umair;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2017.07.23.20.13.19;	author umair;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2017.07.23.20.11.45;	author umair;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2017.07.23.19.05.25;	author umair;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2017.07.23.19.05.06;	author umair;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2017.07.23.19.02.28;	author umair;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2017.07.23.18.58.12;	author umair;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2017.07.23.18.54.50;	author umair;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2017.07.23.18.52.12;	author umair;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2017.07.23.07.32.27;	author umair;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2017.07.23.07.05.44;	author umair;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2017.07.23.06.33.57;	author umair;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2017.07.23.06.28.49;	author umair;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2017.07.23.06.22.11;	author umair;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2017.07.23.06.15.51;	author umair;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2017.07.23.06.09.14;	author umair;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2017.07.22.18.16.35;	author umair;	state Exp;
+branches;
+next	;
+
+
+desc
+@*********UPDATING**********
+@
+
+
+1.36
+log
+@display function changed..
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int i,j,k;
+int displaylinklist(struct node *start)
+{
+        int info=199;
+        int i = 0;
+
+        printf("%s : Begin\n",__func__);
+        while(start->Next)
+        {
+                printf("node %d have info %d\n",i,start->Next->info);
+                start = start->Next;
+                i++;
+        }
+        printf("%s : End\n",__func__);
+}
+
+@
+
+
+1.35
+log
+@*** empty log message ***
+@
+text
+@d6 11
+a16 19
+	int info=199;
+	int i = 0;
+	
+	printf("%s : Begin\n",__func__);
+//	j = insertbeg(start);
+//	k = insertend(start);
+//	printf("j = %d,k = %d\n",j,k);
+	while(start->Next)
+	{
+		printf(" node of index %d have  %d information\n",i,info);
+		info++;
+		i++;
+	//	printf(" new node  at beginning of index %d have  %d information\n",j);
+	//	printf(" new node  at the end of index %d have  %d information\n",k);
+	}
+	while(start->Next=NULL)
+	{
+		break;
+	}
+@
+
+
+1.34
+log
+@display updated.
+@
+text
+@d13 1
+a13 1
+	while(start->next)
+d21 1
+a21 1
+	while(start->next=NULL)
+@
+
+
+1.33
+log
+@printed the linkedlist.
+@
+text
+@d13 1
+a13 1
+	while(strt->next)
+d21 1
+a21 1
+	while(strt->next=NULL)
+@
+
+
+1.32
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+int displaylinklist(Node *strt)
+d6 3
+a8 1
+int node=0;
+d10 4
+a13 4
+	j = insertbeg(strt);
+	k = insertend(strt);
+	printf("j = %d,k = %d\n",j,k);
+	while(strt->Next)
+d15 5
+a19 6
+		for(i=201;i<j;i++)
+		{
+		printf(" node of index %d have  %d \n",node,i);
+		node++;
+		}
+		strt = strt->Next;
+d21 1
+a21 6
+		for(i=301;i<k;i++)
+		{
+		printf(" node of index %d have  %d \n",node,i);
+		node++;
+		}
+/*	while(strt)
+d23 1
+a23 3
+		printf(" node of index %d have  %d \n",node,i);
+		node++;
+		i++;
+a24 1
+*/
+@
+
+
+1.31
+log
+@*** empty log message ***
+@
+text
+@d13 1
+a13 1
+		for(i=200;i<j;i++)
+d20 1
+a20 1
+		for(i=300;i<k;i++)
+@
+
+
+1.30
+log
+@****PRINTING FOR BOTH INSERTIION AT BEGINNING AND END IS DONE****
+@
+text
+@d13 1
+a13 1
+		for(i=200;i<=j;i++)
+d20 1
+a20 1
+		for(i=300;i<=k;i++)
+@
+
+
+1.29
+log
+@*** empty log message ***
+@
+text
+@d20 3
+a22 1
+		printf(" node of index %d have  %d \n",node,k);
+d24 1
+@
+
+
+1.28
+log
+@*** empty log message ***
+@
+text
+@d15 1
+a15 1
+		printf(" node of index %d have  %d \n",node,j);
+@
+
+
+1.27
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int j,k;
+d13 2
+d17 1
+a18 1
+	//	j++;
+a21 1
+	//	k++;
+@
+
+
+1.26
+log
+@*****DISPLAY FUNCTION DONE*****
+@
+text
+@d15 1
+a15 1
+		strt->Next = strt;
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@d15 1
+@
+
+
+1.24
+log
+@*** empty log message ***
+@
+text
+@d8 2
+a9 2
+	j = insertbeg(*strt);
+	k = insertend(*strt);
+@
+
+
+1.23
+log
+@*** empty log message ***
+@
+text
+@d8 2
+a9 2
+	j = insertbeg(Node *strt);
+	k = insertend(Node *strt);
+@
+
+
+1.22
+log
+@*** empty log message ***
+@
+text
+@d8 2
+a9 2
+	j = insertbeg();
+	k = insertend();
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int i=100,j,k;
+d10 1
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int i=100;
+@
+
+
+1.19
+log
+@***correction***
+@
+text
+@d19 1
+a19 1
+	while(strt)
+d25 1
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d6 1
+a6 1
+int node;
+d8 2
+a9 2
+	insertbeg();
+	insertend();
+d14 1
+a14 1
+		j++;
+d18 1
+a18 1
+		k++;
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+int i;
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d3 1
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	insertbeg()
+a14 2
+	while(temp->Next = NULL)
+	{
+a17 1
+	}
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+	int info,node;
+d7 2
+a8 2
+	info = 1000;
+	node = 0;
+d11 1
+a11 1
+		printf(" node of index %d have  %d \n",node,info); 
+d13 7
+a19 3
+		info++; 
+		strt = strt->Next;
+
+d21 1
+a21 1
+	while(strt->Next = NULL)
+d23 1
+a23 5
+		printf(" last node of index %d have  %d \n",node,info); 
+		if(strt = strt->Next)
+		{
+		break;
+		}
+d25 1
+a25 1
+		info++;
+a26 1
+	printf("%s : end\n",__func__);
+d28 1
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d22 1
+a22 1
+\		break;
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d20 4
+a23 1
+		strt = strt->Next;
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d15 1
+a15 1
+				
+d17 2
+d21 4
+a24 1
+		printf("%s : end\n",__func__);
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d18 1
+a18 1
+		strt->Next != NULL;
+@
+
+
+1.9
+log
+@****Correcting the info printing for end insertion****
+@
+text
+@d17 2
+a18 2
+		printf(" last node of index %d have  %d \n",node,strt->info); 
+		strt->Next = NULL;
+@
+
+
+1.8
+log
+@***CORRECTION IN THE DISPLAY FOR END INSERTION***
+@
+text
+@d11 1
+a11 1
+		printf(" node of index %d is on  %d \n",node,strt->info); 
+d14 2
+a15 1
+		strt = strt->Next;	
+d17 2
+a18 1
+		printf(" last node of index %d is on  %d \n",node,strt->info); 
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d11 1
+a11 1
+		printf(" index of node %d is on  %d \n",node,info); 
+d16 1
+a16 1
+		printf(" last node of index %d is on  %d \n",node,info); 
+a17 3
+		node++;
+		info++; 
+		strt = strt->Next;	
+@
+
+
+1.6
+log
+@**********PRINTING OF INSERTED NODE IS DONE***********
+@
+text
+@d11 1
+a11 1
+		printf(" node of index %d is on  %d \n",node,info); 
+d16 1
+a16 1
+		printf(" node of index %d is on  %d \n",node,info); 
+d18 3
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d16 1
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d14 1
+a14 4
+		if(strt->Next = NULL)
+		{
+			break;
+		}	
+@
+
+
+1.3
+log
+@*****added start->Next**in while loop to display linkedkist new nodes also*****
+@
+text
+@d14 5
+a19 1
+	}
+@
+
+
+1.2
+log
+@****ADDED THE DISPLAY OF THE LINKEDLIST*****
+@
+text
+@d3 1
+a3 1
+int displaylinklist()
+d5 1
+a5 1
+	int info,node;	
+d9 7
+a15 4
+	printf(" node of index %d is on  %d \n",node,info); 
+	node++;
+	info++; 
+	printf("%s : end\n",__func__);
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 8
+@

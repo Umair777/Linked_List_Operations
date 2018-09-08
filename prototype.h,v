@@ -1,0 +1,172 @@
+head	1.9;
+access;
+symbols;
+locks
+	umair:1.9; strict;
+comment	@ * @;
+
+
+1.9
+date	2017.09.23.07.45.56;	author umair;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2017.09.14.11.55.01;	author umair;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2017.09.14.08.58.32;	author umair;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2017.09.14.08.57.43;	author umair;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2017.09.14.08.55.02;	author umair;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2017.09.14.06.41.26;	author umair;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2017.09.13.15.17.02;	author umair;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2017.07.23.20.11.12;	author umair;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2017.07.22.18.14.47;	author umair;	state Exp;
+branches;
+next	;
+
+
+desc
+@contains all the header files..
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@struct node *creatnode();
+struct node *creatlinklist();
+int insertnode();
+struct node *deletenode();
+int sortlinklist();
+int displaylinklist();
+struct node
+{
+	int info;
+	struct node *Next;	
+};
+int main();
+int sortlinklist();
+int displaymenu();
+extern int i;
+extern int j;
+
+@
+
+
+1.8
+log
+@***deletion header files****
+@
+text
+@d13 1
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+int deletenode();
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@a15 1
+extern int k;
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d16 1
+@
+
+
+1.4
+log
+@hearder file updated
+@
+text
+@a15 1
+extern int k;
+@
+
+
+1.3
+log
+@ADDED HEADER FILES AND PROTOTYPES FOR LINKEDLIST
+@
+text
+@d1 2
+a2 2
+struct Node *creatnode();
+struct Node *creatlinklist();
+d10 1
+a10 1
+	struct node *next;	
+@
+
+
+1.2
+log
+@****CREATED DISPLAY AGAIN****
+@
+text
+@d7 1
+a7 1
+typedef struct Node
+d10 2
+a11 2
+	struct Node *Next;	
+}Node;
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d14 3
+a16 1
+
+@

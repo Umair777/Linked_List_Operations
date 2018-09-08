@@ -1,0 +1,185 @@
+head	1.8;
+access;
+symbols;
+locks
+	umair:1.8; strict;
+comment	@ * @;
+
+
+1.8
+date	2017.09.18.11.50.14;	author umair;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2017.09.18.11.45.12;	author umair;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2017.09.18.11.39.51;	author umair;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2017.09.18.11.25.03;	author umair;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2017.09.15.09.01.05;	author umair;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2017.09.15.09.00.47;	author umair;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2017.09.15.08.57.25;	author umair;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2017.09.14.11.55.33;	author umair;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@#include"header.h"
+#include"prototype.h"
+struct node *deletebeg(struct node *start)
+{
+	struct node *temp1;
+	int flag=0;
+	temp1 = (struct node *)malloc(sizeof(struct node));
+	if(!temp1)
+	{
+		perror("malloc");
+		exit(EXIT_FAILURE);
+	}
+	printf("%s : begin\n",__func__);
+	while(start->Next)
+	{	
+		if(flag==0)
+		{
+			temp1 = start->Next;
+			printf("info in deleting node is %d\n",temp1->info);
+			printf("info in starting node  %d\n",start->info);
+			start=temp1->Next;
+			printf("info in deleted node was %d\n",temp1->info);
+			printf("info in new starting node  %d\n",start->info);
+			free(temp1);
+			flag = 1;
+		}
+		else
+		{
+			break;
+		}
+	}
+	printf("node has been deleted from the beginning\n");
+	printf("%s : end\n",__func__);
+}
+
+
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d19 1
+d23 1
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d19 1
+a20 1
+			printf("info in starting node  %d\n",start->info);
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d20 1
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d20 1
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d28 1
+a28 1
+	printf("node has been deleted from the beginning\n"_);
+@
+
+
+1.2
+log
+@delete from the beginning of the linkedlist is also done.
+@
+text
+@d13 1
+a13 1
+	printf("%s : begin",__func__);
+d28 2
+a29 1
+	printf("%s : end",__func__);
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+struct node *deletebeg()
+d5 4
+a8 3
+	struct node *ptr,*start;
+	ptr = (struct node *)malloc(sizeof(struct node));
+	if(!ptr)
+d13 16
+a28 8
+	start = (struct node *)malloc(sizeof(struct node));
+printf("%s : begin",__func__);
+while(start->Next)
+{	
+	ptr=start->Next;
+}
+printf("%s : end",__func__);
+free(ptr);	
+@

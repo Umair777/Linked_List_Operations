@@ -1,0 +1,415 @@
+head	1.19;
+access;
+symbols;
+locks
+	umair:1.19; strict;
+comment	@ * @;
+
+
+1.19
+date	2017.09.18.18.05.43;	author umair;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2017.09.18.18.04.58;	author umair;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2017.09.18.17.40.50;	author umair;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2017.09.18.17.39.37;	author umair;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2017.09.18.12.04.08;	author umair;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2017.09.18.11.40.13;	author umair;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2017.09.18.11.39.52;	author umair;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2017.09.18.11.29.18;	author umair;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2017.09.18.11.25.04;	author umair;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2017.09.18.08.58.36;	author umair;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2017.09.18.08.52.51;	author umair;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2017.09.18.08.52.24;	author umair;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2017.09.18.08.48.14;	author umair;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2017.09.18.08.43.55;	author umair;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2017.09.18.08.37.53;	author umair;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2017.09.18.08.24.48;	author umair;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2017.09.18.08.22.12;	author umair;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2017.09.18.08.20.21;	author umair;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2017.09.14.11.55.34;	author umair;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@#include"header.h"
+#include"prototype.h"
+struct node deleteend(struct node *start)
+{
+	struct node *secondlast;
+	int flag=0;
+	secondlast = (struct node *)malloc(sizeof(struct node));
+	if(!secondlast)
+	{
+		perror("malloc");
+		exit(EXIT_FAILURE);
+	}
+	printf("%s : begin\n",__func__);
+	while(start->Next)
+	{
+		secondlast = start = start->Next;
+	}
+	printf("second last info %d\n",secondlast->info);
+	printf(" last info %d\n",start->info);
+	free(secondlast);
+
+printf("%s : End\n",__func__);
+}
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d20 1
+a20 1
+	free(last);
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d18 3
+a20 2
+	printf("second last info %d",secondlast->info);
+	printf(" last info %d",start->info);
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d18 3
+a20 3
+		printf("second last info %d",secondlast->info);
+		printf(" last info %d",start->info);
+}
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+	struct node *last;
+d7 2
+a8 2
+	last = (struct node *)malloc(sizeof(struct node));
+	if(!last)
+d16 1
+a16 9
+		start = start->Next;
+		if(start->Next=NULL)
+		{
+			printf("info in the last is %d\n",start->info);
+			start=last=start->Next;
+			printf("info in the new last is %d\n",start->info);
+			printf("info in the deleted node is %d\n",last->info);
+			free(last);
+		}
+d18 4
+a21 1
+	printf("%s : End\n",__func__);
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+	struct node *secondlast;
+d7 2
+a8 2
+	secondlast = (struct node *)malloc(sizeof(struct node));
+	if(!secondlast)
+d16 2
+a17 1
+		if(flag==0)
+d19 5
+a23 8
+			secondlast= start = start->Next;
+			printf("info in the last node was %d\n",start->info);
+			printf("info in the second last node was %d\n",secondlast->info);
+			if(start->Next==NULL)
+			{
+				start=secondlast->Next;
+				flag=1;
+			}
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d6 1
+a6 1
+	int i=0;
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d16 1
+a16 2
+		secondlast= start = start->Next;
+		if(start->Next==NULL)
+d18 8
+a25 1
+		start=secondlast->Next;
+a26 1
+	break;	
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+	struct node *2ndL;
+d7 2
+a8 2
+	2ndL = (struct node *)malloc(sizeof(struct node));
+	if(!temp1)
+d16 6
+a21 2
+		2ndL= start = start->Next;
+		start=2ndL->Next;	
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+	struct node *temp1;
+d7 1
+a7 1
+	temp1 = (struct node *)malloc(sizeof(struct node));
+d14 1
+a14 1
+	while(start->Next&&i==0)
+d16 2
+a17 8
+		temp1 = start->Next;
+		if(temp1->Next == NULL)
+		{
+			free(temp1);
+			printf("last node has been deleted\n");
+			i=1;
+		}
+			
+a19 1
+return 0;
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d26 1
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d14 1
+a14 1
+	while(start->Next&&i=0)
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d6 1
+d14 1
+a14 1
+	while(start->Next)
+d21 1
+a21 1
+			break;
+d23 1
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d20 1
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d15 2
+a16 2
+		start = start->Next;
+		if(start->Next == NULL)
+d18 1
+a18 1
+			temp1=start;
+a19 1
+			start = free(temp1);
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d18 3
+a20 2
+			start=temp1;
+			free(start);
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d15 1
+d22 1
+a22 1
+		printf("%s : End\n",__func__);
+@
+
+
+1.2
+log
+@***delete from the is also done**
+@
+text
+@d20 1
+a21 1
+	}
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+int deleteend(struct node *ptr)
+d5 17
+@

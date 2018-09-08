@@ -1,0 +1,74 @@
+head	1.2;
+access;
+symbols;
+locks
+	umair:1.2; strict;
+comment	@ * @;
+
+
+1.2
+date	2017.09.19.19.38.10;	author umair;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2017.09.14.11.55.19;	author umair;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@delete at nth node is also done.
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int deleteatnth(struct node *start)
+{
+	int i=0,j,k;
+	struct node *temp1,*temp2;
+	temp1 = (struct node *)malloc(sizeof(struct node));
+		temp2 = (struct node *)malloc(sizeof(struct node)); 
+		printf("%s : Begin\n",__func__);
+	printf("enter the node to be deleted\n");
+	scanf("%d",&k);
+	printf("info of deleted was %d\n",k);
+	while(start->Next)
+	{
+		start=start->Next;
+		if(j==i)
+		{
+			break;
+		}
+		i++;
+		if(start->info == k)
+		{
+			printf("node is at %d\n",i);
+			temp2=start;
+			start=temp2->Next;
+			j=i;
+			printf("info %d has been deleted\n",temp2->info);
+			free(temp2);
+			
+		}
+
+	}
+}
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+int deleteatnth(struct node *ptr)
+d5 28
+@

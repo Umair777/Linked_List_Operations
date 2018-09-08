@@ -1,0 +1,65 @@
+head	1.2;
+access;
+symbols;
+locks
+	umair:1.2; strict;
+comment	@ * @;
+
+
+1.2
+date	2017.09.14.11.55.37;	author umair;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2017.07.22.18.16.19;	author umair;	state Exp;
+branches;
+next	;
+
+
+desc
+@*******UPDATING*****
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@#include"header.h"
+#include"prototype.h"
+struct node *deletenode()
+{
+	struct node *ptr,*start;
+	ptr = (struct node *)malloc(sizeof(struct node));
+	if(!ptr)
+	{
+		perror("malloc");
+		exit(EXIT_FAILURE);
+	}
+	start = (struct node *)malloc(sizeof(struct node));
+printf("%s : begin",__func__);
+while(start->Next)
+{	
+	ptr=start->Next;
+}
+printf("%s : end",__func__);
+free(ptr);	
+}
+
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+int deletenode()
+d5 6
+d12 9
+@

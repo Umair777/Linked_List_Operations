@@ -1,0 +1,29 @@
+head	1.1;
+access;
+symbols;
+locks
+	umair:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2017.09.14.11.55.35;	author umair;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int deletekey(struct node *ptr)
+{
+}
+@

@@ -1,0 +1,89 @@
+head	1.3;
+access;
+symbols;
+locks
+	umair:1.3; strict;
+comment	@ * @;
+
+
+1.3
+date	2017.09.13.15.17.53;	author umair;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2017.07.23.20.11.44;	author umair;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2017.07.22.18.15.11;	author umair;	state Exp;
+branches;
+next	;
+
+
+desc
+@*******CREATEDLINKEDLIST*********
+@
+
+
+1.3
+log
+@Created a linklist.
+@
+text
+@#include"header.h"
+#include"prototype.h"
+struct node *creatlinklist() 
+{
+	struct node *strt;
+	printf("%s : BEGIN\n",__func__);
+	strt = creatnode();			//it is pointing to null as start->next = null
+	printf("linklist created\n");
+	printf("%s : END\n",__func__);
+	return strt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+Node *creatlinklist() 
+d5 1
+a5 1
+	Node *strt;
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d7 1
+a7 1
+	strt = creatnode();
+@

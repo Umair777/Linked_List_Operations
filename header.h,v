@@ -1,0 +1,30 @@
+head	1.1;
+access;
+symbols;
+locks
+	umair:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2017.07.22.18.12.10;	author umair;	state Exp;
+branches;
+next	;
+
+
+desc
+@linked list created first>>>>>>>
+insertion and deletion at various location in the linkedlist is also updated.
+created the test file.
+**********INSERTION UPDATING************
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#include<stdio.h>  
+#include<stdlib.h>
+@

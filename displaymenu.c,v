@@ -1,0 +1,40 @@
+head	1.1;
+access;
+symbols;
+locks
+	umair:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2017.07.22.18.16.49;	author umair;	state Exp;
+branches;
+next	;
+
+
+desc
+@********CHOICES********
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int displaymenu()
+{
+        int choice;
+        printf("press 1 to create linked list \n");
+        printf("press 2 to insert node in the linkedlist\n");
+        printf("press 3 to delete node of the linkedlist\n");
+        printf("press 4 to sort linked list \n");
+        printf("press 5 to display linked list \n");
+        printf("Enter the Choice\n");
+        scanf("%d",&choice);
+        return choice;
+}
+
+@

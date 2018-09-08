@@ -1,0 +1,60 @@
+head	1.2;
+access;
+symbols;
+locks
+	umair:1.2; strict;
+comment	@ * @;
+
+
+1.2
+date	2017.09.13.15.18.26;	author umair;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2017.07.22.18.15.50;	author umair;	state Exp;
+branches;
+next	;
+
+
+desc
+@********single function to creat nodes*******
+@
+
+
+1.2
+log
+@created first node successfully.
+@
+text
+@#include"header.h"  
+#include"prototype.h"
+struct node *creatnode()
+{
+	struct node *start;
+	start = (struct node *)malloc(sizeof(struct node));
+	if(!start)
+	{
+	perror("malloc");
+	exit(EXIT_FAILURE);
+	}
+	start->Next = NULL;
+	return start;
+}
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+Node *creatnode()
+d5 2
+a6 2
+	Node *start;
+	start = (Node *)malloc(sizeof(Node));
+@

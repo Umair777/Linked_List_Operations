@@ -1,0 +1,65 @@
+head	1.2;
+access;
+symbols;
+locks
+	umair:1.2; strict;
+comment	@ * @;
+
+
+1.2
+date	2017.09.23.07.43.54;	author umair;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2017.09.21.20.59.08;	author umair;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@sorting the linked list is also done.
+@
+text
+@#include"header.h"
+#include"prototype.h"
+int sortlist(struct node *start)
+{
+struct node *temp1,*temp2;
+while(start->Next)
+	{
+	printf("starting info= %d \n",start->info);
+	temp1=start->Next;
+	printf("Next to starting info= %d \n",start->info);
+	if(start->info > temp1->info)
+		{
+			temp2->info = temp1->info;
+			temp1->info = start->info;
+			start->info = temp2->info;
+		}
+	start=start->Next;
+	}
+return 0;
+}
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+int sortlist()
+d5 15
+a19 1
+	
+d21 1
+@
